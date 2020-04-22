@@ -49,7 +49,7 @@ head(track)
 # Taxonomy
 
 taxa <- assignTaxonomy(seqtab.nochim, here("../taxa/silva_nr_v138_train_set.fa.gz"), multithread=TRUE)
-taxa <- addSpecies(taxa, here("../taxa/silva_nr_v138_train_set.fa.gz"))
+taxa <- addSpecies(taxa, here("../taxa/silva_species_assignment_v138.fa.gz"))
 taxa.print <- taxa # Removing sequence rownames for display only
 rownames(taxa.print) <- NULL
 head(taxa.print)
