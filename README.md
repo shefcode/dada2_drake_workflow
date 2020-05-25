@@ -1,4 +1,4 @@
-# dada2_drake_workflow
+# DADA2 workflow using drake
 
 ## About
 
