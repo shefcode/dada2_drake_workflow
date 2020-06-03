@@ -36,7 +36,7 @@ Two taxonomic tables are created, with and without species classification and ca
 ## Analysis Functions
 
 Inspect read quality profiles (forward and reverse reads)
-> plotQualityProfile(fnFs[<index_start>:<index_end>])
+> `plotQualityProfile(fnFs[<index_start>:<index_end>])`
 
 *Output:*
 * Gray scale heat map : frequency of each quality score at each base position
@@ -45,12 +45,12 @@ Inspect read quality profiles (forward and reverse reads)
 * Red line : scaled proportion of reads that extend to at least that position
 
 Plot observed and estimated error rate for forward and reverse reads
-> plotErrors(errF)
+> `plotErrors(errF)`
 
 ## Applying modifications based on personalized data
-|         |       |
+|  Function       |   Description    |
 |-------- |-------|
-|`filterAndTrim(truncLen = c(<>, <>))` | Default 0 (no truncation). Truncate reads after truncLen bases. Reads shorter than this are discarded.|
+|`filterAndTrim(truncLen = c(<>,<>))` | Default 0 (no truncation). Truncate reads after truncLen bases. Reads shorter than this are discarded.|
 |`removePrimers()` |	Removes primers and orients reads in a consistent direction. Intended use for PacBio CSS data|
 |`seqComplexity()` | Determine if input sequence(s) are low complexity.|
 |`show(<dada2 object>)`	| Method extensions to show for dada2 objects.|
@@ -59,7 +59,7 @@ Plot observed and estimated error rate for forward and reverse reads
 *Documentation is reproduced from drake package*
 
 ## Usage
-|   |   |
+| Function  | Description  |
 |---|---|
 |`make(<drake plan>)`	| Run the drake plan |
 |`loadd(<drake target>)` |	Run and load drake target |
@@ -67,7 +67,7 @@ Plot observed and estimated error rate for forward and reverse reads
 |`vis_drake_graph(<drake plan>)` |	Show an interactive visual network representation of drake plan |
 
 ## Visualize drake plan
-> vis_drake_graph(dada2analysis)
+> `vis_drake_graph(dada2analysis)`
 
 ![](/16s_rrna/vis_drake_graph.png)
 
