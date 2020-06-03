@@ -69,6 +69,7 @@ Plot observed and estimated error rate for forward and reverse reads
 ## Visualize drake plan
 > vis_drake_graph(dada2analysis)
 
+![](/16s_rrna/vis_drake_graph.png)
 
 ## Reference
 * DADA2 tutorial - https://benjjneb.github.io/dada2/tutorial.html
