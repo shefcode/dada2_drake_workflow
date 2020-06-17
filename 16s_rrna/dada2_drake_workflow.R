@@ -1,6 +1,6 @@
 # Analyzing 16S Microbiome Insight data - added phyloseq
 
-source("packages.R")
+source("package.R")
 
 dada2analysis <- drake_plan(
   import_metadata = read.csv("data/meta.csv"),
