@@ -19,7 +19,7 @@ In order to run this workflow, the following packages need to be installed in R 
 
 ## Folder Structure
 
-![](/folder_structure.png)
+![](folder_structure_380.png)
 
 * set the working directory `to 16s_rrna/`
 * enter input data to the `16s_rrna/raw_sequences/` folder 
