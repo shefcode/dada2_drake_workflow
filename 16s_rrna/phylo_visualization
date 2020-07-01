@@ -61,7 +61,7 @@ dada2analysis <- drake_plan(
                         type="sample", 
                         color="Sample.Type",
                         title="taxa") + 
-    geom_polygon(aes(color=Sample.Type)) + 
+    geom_polygon(fill = NA) + 
     geom_point(size=2) + 
     ggtitle("samples"),
   
