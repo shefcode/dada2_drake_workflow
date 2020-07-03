@@ -95,12 +95,12 @@ The workflow uses Silva (version 138) but can be modified integrate any of the 3
 
 > Example: Up to date `vis_drake_graph(dada2analysis)`
 
-![](/16s_rrna/Up_to_date_vis_drake_graph.png)
+![](/16s_rrna/vis_drake_graph.png)
 
 
 > Example: Outdated `vis_drake_graph(dada2analysis`
 
-![](/16s_rrna/Outdated_vis_drake_graph.png)
+![](/16s_rrna/vis_drake_graph_outdated.png)
 
 ## Notes
 This is intended for data from Illumina sequencing, but can be modified for other sequencing data formats such as 454 and Ion Torrent sequencing data with some modification in the DADA2 parameters. For more information, please refer to the [DADA2 documentation](https://www.bioconductor.org/packages/release/bioc/manuals/dada2/man/dada2.pdf). 
